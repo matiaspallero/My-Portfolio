@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  color: #333;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  padding-top: 9px;
+  gap: 1rem;
+  height: 40px;
+/*   margin-top: 1rem; */
+  background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+  background-blend-mode: multiply,multiply;
+}
+nav a {
+  color: #e4e4e4;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+section {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background-image: linear-gradient(to right, #1711cb 0%, #2c25fc 100%);
+  color: white;
+  border-radius: 8px;
+  box-shadow: 0 50px 55px #0000001a;
+}
+h2 {
+  display: flex;
+  justify-content: center;
+  text-decoration: underline;
+}
+.rounded-photo {
+  display: block;
+  margin: 1rem auto;
+  width: 500px;
+  height: 250px;
+  border-radius: 1%;
+  object-fit: cover;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+}
+.info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-right: 10%;
+}
+.cuerpo {
+  /* background-image: linear-gradient(to left, #2427ca 0%, #0d0867 100%); */
+  width: 100%;
+  height: 100%;
+  --color: #303030;
+  background-color: #2b2b2b;
+  background-image: linear-gradient(0deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%,transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%,transparent),
+      linear-gradient(90deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%,transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%,transparent);
+  background-size: 55px 55px;
+}

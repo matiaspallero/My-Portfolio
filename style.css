@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+
+}
+header {
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.209) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(148, 148, 148, 0.272) 0%, rgba(0,0,0,0.40) 120%) #535353c1;
+  background-blend-mode: multiply,multiply;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+nav a {
+  color: #e4e4e4;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: large;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+section {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background-image: linear-gradient(to left, #818181 0%, #6e6f71 100%), radial-gradient(88% 271%, rgba(255, 255, 255, 0.25) 0%, rgba(254, 254, 254, 0.25) 1%, rgba(0, 0, 0, 0.25) 100%), radial-gradient(50% 100%, rgba(255, 255, 255, 0.30) 0%, rgba(0, 0, 0, 0.30) 100%);
+  background-blend-mode: normal, lighten, soft-light;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  color: aliceblue;
+}
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: linear-gradient(to top, rgba(67, 67, 67, 0.209) 0%, rgba(255, 255, 255, 0.15) 100%), radial-gradient(at top center, rgba(112, 112, 112, 0.272) 0%, rgba(99, 99, 99, 0.4) 120%) #323232c1;
+  background-blend-mode: multiply,multiply;
+  color: white;
+  margin-top: 2rem;
+}
+.rounded-photo {
+  display: block;
+  margin: 1rem auto;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.contratarme {
+  font-weight: bold;
+}
+.cuerpo {
+  width: 100%;
+  height: 100%;
+  --color: #303030;
+  background-color: #2b2b2b;
+  background-image: linear-gradient(0deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%,transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%,transparent),
+      linear-gradient(90deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%,transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%,transparent);
+  background-size: 55px 55px;
+}
+h2, .yo {
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+}
+.ver-mas, .mail {
+  color: white;
+}
+.contacto {
+  align-items: center;
+  padding-left: 10%;
+}
