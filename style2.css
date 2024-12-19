@@ -32,6 +32,14 @@ section {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   color: #ffffff;
 }
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: linear-gradient(to top, rgba(67, 67, 67, 0.209) 0%, rgba(255, 255, 255, 0.15) 100%), radial-gradient(at top center, rgba(112, 112, 112, 0.272) 0%, rgba(99, 99, 99, 0.4) 120%) #323232c1;
+  background-blend-mode: multiply,multiply;
+  color: white;
+  margin-top: 2rem;
+}
 h2 {
   display: flex;
   justify-content: center;
@@ -61,4 +69,26 @@ h2 {
   background-image: linear-gradient(0deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%,transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%,transparent),
       linear-gradient(90deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%,transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%,transparent);
   background-size: 55px 55px;
+}
+.social-icons {
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+.social-icon {
+  color: rgb(232, 230, 227);
+}
+.social-icon {
+  color: #fff;
+  font-size: 1.5rem;
+  transition: transform .3s ease;
+}
+.social-icon:hover {
+  color: rgb(223, 220, 216);
+}
+.social-icon:hover {
+  transform: scale(1.2);
+  color: #f1f1f1;
 }

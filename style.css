@@ -81,3 +81,25 @@ h2 {
   align-items: center;
   padding-left: 10%;
 }
+.social-icons {
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+.social-icon {
+  color: rgb(232, 230, 227);
+}
+.social-icon {
+  color: #fff;
+  font-size: 1.5rem;
+  transition: transform .3s ease;
+}
+.social-icon:hover {
+  color: rgb(223, 220, 216);
+}
+.social-icon:hover {
+  transform: scale(1.2);
+  color: #f1f1f1;
+}
