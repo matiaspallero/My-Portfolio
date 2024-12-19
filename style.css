@@ -32,7 +32,7 @@ section {
   background-image: linear-gradient(to left, #818181 0%, #6e6f71 100%), radial-gradient(88% 271%, rgba(255, 255, 255, 0.25) 0%, rgba(254, 254, 254, 0.25) 1%, rgba(0, 0, 0, 0.25) 100%), radial-gradient(50% 100%, rgba(255, 255, 255, 0.30) 0%, rgba(0, 0, 0, 0.30) 100%);
   background-blend-mode: normal, lighten, soft-light;
   border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   color: #ffffff;
 }
 footer {
@@ -64,10 +64,15 @@ footer {
       linear-gradient(90deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%,transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%,transparent);
   background-size: 55px 55px;
 }
-h2, .yo {
+h2 {
   display: flex;
   justify-items: center;
   justify-content: center;
+}
+.yo {
+  display: flex;
+  align-items: center;
+  padding-left: 5%;
 }
 .ver-mas, .mail {
   color: white;
